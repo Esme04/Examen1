@@ -1,0 +1,390 @@
+body{background-color: black;}
+	
+@font-face { 
+		font-family: salinas; 
+		src: url('text/Sensations and Qualities.TTF'); 
+      	}
+
+@font-face { 
+		font-family: titulo2; 
+		src: url('text/Adore You.TTF'); 
+      	}
+
+@font-face { 
+		font-family: titulo3; 
+		src: url('text/CaviarDreams.TTF'); 
+      	}
+
+
+.titulo{font-family: salinas; text-align:center; font-size: 170; color:#D0F5A9;}
+.titulo2{font-family: sans-serif;  font-size: 20; color:#CEF6F5;}
+.titulo3{font-family: titulo3; text-align: left; font-size: 14; color:black;}
+.titulo4{font-family: titulo3;  font-size: 14; color:black;}
+
+table.menu{
+	background-color:#0A1B2A;
+	border: 10px;
+	border-spacing: 86px 8px;
+}
+
+div.encabezado{
+      width:1260px;
+	height:200px;
+	background-image:url('img/fondo3.gif'); 
+	background-repeat: round;
+	left: 0px;
+	top: 0px;
+	z-index:1;
+}
+
+div.encabezado2{
+      width:1260px;
+	height:200px;
+	background-image:url('img/fondo4.gif'); 
+	background-repeat: round;
+	z-index:1;
+	font-family: salinas; text-align:center; font-size: 170; color:white;
+}
+
+div.recuadro3{
+      width:700px;
+	height:310px;
+	background-color:#240A00; 
+	position:absolute;
+	left: 100px;
+	top: 253px;
+	z-index:1;
+	font-family: titulo3; text-align:right; font-size: 17; color:white;
+}
+div.img8{
+      width:300px;
+	height:310px;
+	background-image:url('img/pedro1.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 820px;
+	top: 253px;
+	z-index:1;
+}
+
+div.img9{
+      width:300px;
+	height:310px;
+	background-image:url('img/carlos.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 820px;
+	top: 253px;
+	z-index:1;
+}
+
+div.img10{
+      width:300px;
+	height:310px;
+	background-image:url('img/hijo.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 820px;
+	top: 253px;
+	z-index:1;
+}
+
+div.img11{
+      width:300px;
+	height:310px;
+	background-image:url('img/maria.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 820px;
+	top: 253px;
+	z-index:1;
+}
+
+div.perfil{
+      width:700px;
+	height:350px;
+	background-image:url('img/carmen.png'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:fixed;
+	left: 300px;
+	top: 253px;
+	z-index:2;
+}
+
+div.fecha1{
+	width:200px;
+	height:80px;
+	background-color: black;
+	position:fixed;
+	left: 340px;
+	top: 530px;
+	z-index:2;
+	font-family: salinas; text-align:center; font-size: 50; color:#CEF6F5;
+}
+
+div.fecha2{
+	width:200px;
+	height:80px;
+	background-color: black;
+	position:fixed;
+	left: 760px;
+	top: 530px;
+	z-index:2;
+	font-family: salinas; text-align:center; font-size: 50; color:#CEF6F5;
+}
+
+div.a{
+	width:540px;
+	height:760px;
+	background-image:url('img/f2.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 100px;
+	top: 330px;
+	z-index:-2;
+}
+
+table.perfil{
+	background-color:#03AAB6;
+	border: solid 1px #FFFF;
+	border-spacing: 10px 12px;
+	left: 690px;
+	top: 410px;
+	border-collapse: separate;
+	border-style: dotted;
+	width: 510px;
+	position: absolute;
+}
+th.color{
+	background-color:#02666E;
+	width: 170px;
+	height: 43px;
+	font-family: titulo3;  font-size: 14; color:white;
+}
+
+div.c{
+	background-image:url('img/f2.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	width:510px;
+	height:180px;
+	position:absolute;
+	left: 690px;
+	top: 330px;
+	z-index:-1;
+	font-family: salinas; text-align:center; font-size: 70; color:white;
+}
+
+div.img1{
+	width:450px;
+	height:700px;
+	background-image:url('img/carmen2.jpg');
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 145px;
+	top: 370px;
+	z-index:1;
+}
+
+div.img2{
+	width:600px;
+	height:500px;
+	background-image:url('img/f4.png');
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 145px;
+	top: 390px;
+	z-index:-1;
+	font-family: salinas; text-align:right; font-size: 35; color:#545321;
+}
+div.img3{
+	width:470px;
+	height:500px;
+	background-image:url('img/carmen3.png');
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 665px;
+	top: 390px;
+	z-index:-2;
+}
+div.img5{
+	width:640px;
+	height:650px;
+	background-image:url('img/f6.png');
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 10px;
+	top: 250px;
+	z-index:-3;
+}
+div.img6{
+	width:640px;
+	height:650px;
+	background-image:url('img/f7.png');
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 641px;
+	top: 250px;
+	z-index:-3;
+}
+
+div.img7{
+	width:480px;
+	height:1100px;
+	background-image:url('img/salinas3.jpg');
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 2px;
+	top: 250px;
+	z-index:-4;
+}
+div.recuadro{
+	width:470px;
+	height:100px;
+	background-color: black;
+	position:absolute;
+	left: 665px;
+	top: 1500px;
+	z-index:1;
+}
+div.recuadro2{
+	width:980px;
+	height:80px;
+	background-image:url('img/f5.png');
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	position:absolute;
+	left: 153px;
+	top: 321px;
+	z-index:-1;
+	font-family: salinas; text-align:center; font-size: 48; color:#E1E1B3;
+}
+
+div.recuadro5{
+	width:741px;
+	height:55px;
+	background-color: #04B4AE;
+	position:absolute;
+	left: 473px;
+	top: 810px;
+	z-index:1;
+	font-family: titulo2; text-align:center; font-size: 48; color:#071918;
+}
+
+div.recuadro4{
+	width:741px;
+	height:55px;
+	background-color: #04B4AE;
+	position:absolute;
+	left: 473px;
+	top: 310px;
+	z-index:1;
+	font-family: titulo2; text-align:center; font-size: 48; color:#071918;
+}
+div.recuadro6{
+	width:741px;
+	height:55px;
+	background-color: #04B4AE;
+	position:absolute;
+	left: 473px;
+	top: 1100px;
+	z-index:1;
+	font-family: titulo2; text-align:center; font-size: 48; color:#071918;
+}
+
+div.d{
+	background-image:url('img/f2.jpg'); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	width:510px;
+	height:180px;
+	position:absolute;
+	left: 690px;
+	top: 880px;
+	z-index:-1;
+	font-family: salinas; text-align:center; font-size: 70; color:white;
+}
+
+table.perfil2{
+	background-color:#03AAB6;
+	border: solid 1px #FFFF;
+	border-spacing: 10px 12px;
+	left: 690px;
+	top: 950px;
+	border-collapse: separate;
+	border-style: dotted;
+	width: 510px;
+	position: absolute;
+}
+
+table.cine{
+	background-color:black;
+	border: solid 1px;
+	border-spacing: 9px 9px;
+	left: 155px;
+	top: 300px;
+	border-collapse: separate;
+	position: absolute;
+	width: 960px;
+}
+
+th.h{
+	background-color:#CEF6EC;
+	border:0px;
+	line-height: 2;
+	font-family: salinas; text-align: center; font-size: 40; color:black;
+}
+
+td.i{
+	background-color:#0A2A29;
+	border: 5px;
+	line-height: 2;
+	font-family: sans-serif; font-size: 15; color:#CEF6F5;
+}
+
+table.cine1{
+	background-color:black;
+	border: solid 1px;
+	border-spacing: 9px 9px;
+	left: 465px;
+	top: 360px;
+	border-collapse: separate;
+	position: absolute;
+	width: 760px;
+}
+
+table.cine2{
+	background-color:black;
+	border: solid 1px;
+	border-spacing: 12px 12px;
+	left: 465px;
+	top: 860px;
+	border-collapse: separate;
+	position: absolute;
+	width: 760px;
+}
+
+table.cine3{
+	background-color:black;
+	border: solid 1px;
+	border-spacing: 12px 12px;
+	left: 465px;
+	top: 1150px;
+	border-collapse: separate;
+	position: absolute;
+	width: 760px;
+}
+
+
